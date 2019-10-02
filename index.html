@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1 {font-family:Arial; font-size: 30px; color: blue;}
+            h2 {font-family: Arial; font-size: 15px;}
+            h3 {font-family: Arial; font-size: 12px;}
+        </style>
+        <body>
+           <form name="Daily-Activities-Report" action="send_post.php" method="post" role="form">
+               <h1>Daily Activities Report</h1>
+               <div>
+                   <h2>Sales</h2>
+              <h3>Grocery</h3> 
+                <p>
+                    <label for "grocery">
+                        <input type="text" id="grocery-sales" name="grocery">
+                    </label>
+                </p>
+              <h3>Meat</h3>
+              <p>
+                    <label for "meat">
+                        <input type="text" id="meat-sales" name="meat">
+                    </label>
+                </p>
+            </div>
+            <div>
+                <input class="btn" name="submit" value="Submit" style="background-color:black; width: 100px; color:floralwhite; font-family: Arial; font-size: 25px; text-align:center;">
+            </div>
+           </form> 
+        </body>
+    </head>
+</html>
